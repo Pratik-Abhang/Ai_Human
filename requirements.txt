@@ -1,2 +1,1 @@
-import streamlit as st
-import pandas as pd
+streamlit==1.36.0
