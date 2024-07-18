@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import math
 import streamlit as st
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 import pickle
 
 
@@ -36,7 +36,7 @@ input_text = vectorizer.fit_transform(['input_text'])
 #X_train,x_test,y_train,y_test=train_test_split(dt['text'],dt['generated_cor'],test_size=0.2,random_state=42)
 
 # from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
+#from sklearn.feature_extraction.text import TfidfVectorizer
 # from sklearn.naive_bayes import MultinomialNB, ComplementNB
 # from sklearn.svm import LinearSVC
 # from sklearn.svm import SVC
